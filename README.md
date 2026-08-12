@@ -8,7 +8,7 @@
 
 Full waveform inversion (FWI) is a high-resolution seismic inversion technique popularly used in oil and gas exploration. Traditional FWI employs the $L_2$ norm measurement to minimize the misfit between observed and predicted seismic data, which easily suffers from cycle skipping when background velocity is inaccurate or data lacks low-frequency components.
 
-To address this issue, we introduce a **multi-scale structural similarity index measure (MS-SSIM)** objective function for FWI.
+To address this issue, we introduce a **multi-scale structural similarity index measure (M-SSIM)** objective function for FWI.
 
 ---
 
