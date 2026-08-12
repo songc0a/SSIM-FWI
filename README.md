@@ -18,7 +18,7 @@ To address this issue, we introduce a **multi-scale structural similarity index 
 .
 ├── FWI.ipynb             # Conventional FWI baseline implementation
 ├── EI-FWI.ipynb          # Envelope Inversion (EI-FWI) implementation
-├── M-SSIM-FWI.ipynb      # Proposed Multi-scale SSIM FWI method
+├── M-SSIM-FWI.ipynb      # Proposed Multi-scale SSIM-FWI method
 ├── misfit_test.ipynb     # Testing and validation script for objective functions
 ├── misfit/               # Modules containing different objective function definitions
 ├── utils/                # Utility functions
