@@ -63,7 +63,7 @@ These multi-scale structural features provide a more comprehensive measurement o
 The effectiveness of the proposed method is further evaluated using the Chevron velocity model. The initial model, the inversion result obtained using conventional full waveform inversion, and the result obtained using the proposed method are shown below.
 
 <p align="center">
-  <img src="figures/Chevron_model.jpg" width="750">
+  <img src="figures/Chevron model.jpg" width="750">
 </p>
 
 <p align="center">
@@ -101,8 +101,8 @@ NumPy
 SciPy
 Matplotlib
 Deepwave
+```
 
-```markdown
 ## Citation
 
 If you use this code or find this work helpful in your research, please cite:
@@ -115,3 +115,4 @@ If you use this code or find this work helpful in your research, please cite:
   year      = {2026},
   publisher = {Society of Exploration Geophysicists}
 }
+```
