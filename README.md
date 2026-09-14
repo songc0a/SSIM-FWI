@@ -21,7 +21,7 @@ A Ricker wavelet test is used to compare the behavior of different misfit functi
 </p>
 
 <p align="center">
-  <b>Figure 4.</b> Ricker wavelet misfit function test: (a) Ricker wavelet and (b) normalized misfit.
+  <b></b> Ricker wavelet misfit function test: (a) Ricker wavelet and (b) normalized misfit.
 </p>
 
 The normalized misfit curves show the response of different objective functions to waveform shifts, providing an intuitive comparison of their sensitivity to cycle skipping.
@@ -36,7 +36,7 @@ The effectiveness of different inversion methods is evaluated on the Marmousi ve
 </p>
 
 <p align="center">
-  <b>Figure 2.</b> Inversion results on the Marmousi model: (a) initial velocity model, (b) FWI, (c) EI-FWI, (d) OT-FWI, (e) SSIM-FWI, and (f) regularized SSIM-FWI.
+  <b></b> Inversion results on the Marmousi model: (a) initial velocity model, (b) FWI, (c) EI-FWI, (d) OT-FWI, (e) SSIM-FWI, and (f) regularized SSIM-FWI.
 </p>
 
 Among these methods, the SSIM-FWI approaches achieve more accurate recovery of the velocity structures than conventional methods. In particular, the regularized SSIM-FWI method improves structural continuity and better reconstructs the complex features of the Marmousi model.
@@ -52,7 +52,7 @@ Multi-scale structural similarity extracts the local average amplitude, local en
 </p>
 
 <p align="center">
-  <b>Figure 3.</b> Extraction and comparison of local average amplitude, local energy, and local waveform features from the predicted and observed seismic data at multiple scales.
+  <b></b> Extraction and comparison of local average amplitude, local energy, and local waveform features from the predicted and observed seismic data at multiple scales.
 </p>
 
 These multi-scale structural features provide a more comprehensive measurement of the differences between the predicted and observed seismic data than conventional point-by-point waveform differences.
@@ -67,7 +67,7 @@ The effectiveness of the proposed method is further evaluated using the Chevron 
 </p>
 
 <p align="center">
-  <b>Figure 1.</b> Inversion results on the Chevron velocity model: (a) initial velocity model, (b) FWI, and (c) regularized SSIM-FWI.
+  <b></b> Inversion results on the Chevron velocity model: (a) initial velocity model, (b) FWI, and (c) regularized SSIM-FWI.
 </p>
 
 Compared with FWI, the regularized SSIM-FWI provides improved reconstruction of the velocity structures and better structural continuity.
@@ -101,3 +101,17 @@ NumPy
 SciPy
 Matplotlib
 Deepwave
+
+```markdown
+## Citation
+
+If you use this code or find this work helpful in your research, please cite:
+
+```bibtex
+@article{he2026ssim,
+  title     = {SSIM-FWI: Full Waveform Inversion based on Multi-scale Structural Similarity Index Measure},
+  author    = {He, Liangsheng and Song, Chao and Liu, Cai},
+  journal   = {Geophysics},
+  year      = {2026},
+  publisher = {Society of Exploration Geophysicists}
+}
