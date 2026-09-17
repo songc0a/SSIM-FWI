@@ -113,6 +113,8 @@ If you use this code or find this work helpful in your research, please cite:
   author    = {He, Liangsheng and Song, Chao and Liu, Cai},
   journal   = {Geophysics},
   year      = {2026},
+  volume    = {95},
+  pages     = {R225–R243},
   publisher = {Society of Exploration Geophysicists}
 }
 ```
